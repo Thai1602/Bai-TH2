@@ -1,0 +1,22 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h2 {
+  margin-bottom: 16px;
+}
+img {
+  max-height: 300px; /* Giới hạn chiều cao */
+  max-width: 100%; /* Giới hạn chiều rộng */
+  object-fit: contain; /* Giữ tỷ lệ gốc, không cắt ảnh */
+  display: block; /* Đảm bảo ảnh là khối */
+  margin: 0 auto; /* Căn giữa ảnh */
+}
